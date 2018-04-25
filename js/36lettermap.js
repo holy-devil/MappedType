@@ -24,11 +24,11 @@
 
 for (i = 0; i < 19; i=i+3) {
 	var rowDiv = document.createElement('div');
-	rowDiv.className = 'row maprow';
+	rowDiv.className = 'row';
 	// Create the inner div before appending to the body
 	for (j=0; j < 3 && i+j<20; j++){
 		var colDiv = document.createElement('div');
-		colDiv.className = 'col-sm-4';
+		colDiv.className = 'col-sm-4 mapItem';
 		imageFileName = "./img/36maps/" + (i+j+10).toString(36) + ".png"
 		colDiv.innerHTML += '<img src="'+imageFileName+'" />';
 		rowDiv.appendChild(colDiv);

@@ -6,8 +6,8 @@ body {
   background-size: 22px 22px;
 }
 
-.maprow {
-    margin: 30px 0px 30px
+.mapItem {
+    margin: 15px 0px 15px
 }
 
 
@@ -57,7 +57,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: 100% auto;
   min-height: 300px;
    margin-top: 100px;
-  /*background-position-y: 100px;*/
 }
 
 #lettermapgrid {
@@ -579,6 +578,9 @@ a, a:hover {
     margin: 10px;
     width: 90%;
   }
+  #project-cover{
+      min-height: 100px;
+  }
   .about-content {
     width: 100%;
     margin: 0px;
@@ -616,6 +618,9 @@ a, a:hover {
   background-color: #ffffff73;
 
 }
+ #project-cover{
+      min-height: 100px;
+  }
 .navbar-fixed-top{
   margin: 0;
   padding:10px 0;
